@@ -1,0 +1,2 @@
+create table TBL_USERS1 (USER_ID bigint not null, USER_EMAIL varchar(255), USER_NAME varchar(255), primary key (USER_ID));
+insert into TBL_USERS1 (USER_EMAIL, USER_NAME, USER_ID) values ('FlyWay@mail.ru', 'Mee', 10);
