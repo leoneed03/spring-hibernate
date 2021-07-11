@@ -23,7 +23,7 @@ public class Main {
 
         User userToSave = new User();
         userToSave.setName("Leo");
-        userToSave.setEmail("leo@mail.ru");
+        userToSave.setEmail("leoHIBER_3@mail.ru");
         repo.save(userToSave);
 
         System.out.println(repo.list());

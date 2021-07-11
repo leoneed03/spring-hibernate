@@ -13,7 +13,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 
 
 @Entity
-@Table(name = "TBL_USERS")
+@Table(name = "TBL_USERS1")
 public class User {
 
     @Id
